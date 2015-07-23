@@ -1,38 +1,89 @@
 <html>
 <head>
-	<?php include "include/header.php" ?>
-</head>
-<body>
-
 <?php if(isset($_GET) && isset($_GET['news'])){ ?>
-
+<meta name="description" content="Bestial Soul News" />
+<?php include "include/header.php"; ?>
 <title>Bestial Soul | News</title>
+</head>
+
+<?php include "include/navbar.php" ?>
+
+<body>
 
 <!-- Landing -->
 
-  	<div class="col-md-12 video text-center">
   					<video autoplay loop no-controls muted>
                         <source src="video-principale.mp4"  type="video/mp4" />
                     </video>  
-  		<h1><span>N</span>ews </h1>
-	</div>
+  		<h1 class="text-center"><span>N</span>ews </h1>
 
 
 <div class="container">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-<div class="col-md-8">
-<h2>Le groupe :</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2 id="news" class="text-center news col-lg-4 col-md-4 col-sm-4 col-xs-4">Les news</h2>
+  <div class="hiddenstuff col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <ul class="dates">
+    <a target="_blank" href="http://www.spirit-of-metal.com/album-groupe-Bestial_Soul-nom_album-First_Bleeding-l-fr.html">
+    <li>Bestial Soul - First Bleeding (demo) - {Spirit-of-Metal}</li>
+    </a>
+    <a target="_blank" href="http://www.spirit-of-metal.com/album-groupe-Bestial_Soul-nom_album-Chaos_of_Insanity-l-fr.html">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Spirit-of-Metal}</li>
+    </a>
+    <a target="_blank" href="http://www.behindtheveil.hostingsiteforfree.com/index.php/reviews/demos/1959-bestial-soul--chaos-of-insanity">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Behind The Veil<em>Webzine</em>}</li>
+    </a>
+    <a target="_blank" href="http://www.vs-webzine.com/chronique-BESTIAL_SOUL-Chaos_of_Insanity-15485.html">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Vs-Webzine}</li>
+    </a>
+    <a target="_blank" href="http://www.french-metal.com/chroniques/bestialsoul.html#.VJbeIF4B8">
+    <li>Bestial Soul - Chaos of insanity (demo) - {French-metal}</a> + <a href="http://www.french-metal.com/interviews/bestialsoul.html#.VJbeIl4B8">Interview du groupe</a></li>
+    <a target="_blank" href="http://totalmetalzone.wix.com/totalmetalzone#!bestial-soul/c1wme">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Totalmetalzone}</li>
+    </a>
+    </ul>
+  </div>
+
+<h2 id="chronique" class="text-center chronique col-md-4">Nos chroniques</h2>
+  <div class="hiddenstuff-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <ul class="dates">
+    <a target="_blank" href="http://www.spirit-of-metal.com/album-groupe-Bestial_Soul-nom_album-First_Bleeding-l-fr.html">
+    <li>Bestial Soul - First Bleeding (demo) - {Spirit-of-Metal}</li>
+    </a>
+    <a target="_blank" href="http://www.spirit-of-metal.com/album-groupe-Bestial_Soul-nom_album-Chaos_of_Insanity-l-fr.html">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Spirit-of-Metal}</li>
+    </a>
+    <a target="_blank" href="http://www.behindtheveil.hostingsiteforfree.com/index.php/reviews/demos/1959-bestial-soul--chaos-of-insanity">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Behind The Veil<em>Webzine</em>}</li>
+    </a>
+    <a target="_blank" href="http://www.vs-webzine.com/chronique-BESTIAL_SOUL-Chaos_of_Insanity-15485.html">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Vs-Webzine}</li>
+    </a>
+    <a target="_blank" href="http://www.french-metal.com/chroniques/bestialsoul.html#.VJbeIF4B8">
+    <li>Bestial Soul - Chaos of insanity (demo) - {French-metal}</a> + <a href="http://www.french-metal.com/interviews/bestialsoul.html#.VJbeIl4B8">Interview du groupe</a></li>
+    <a target="_blank" href="http://totalmetalzone.wix.com/totalmetalzone#!bestial-soul/c1wme">
+    <li>Bestial Soul - Chaos of insanity (demo) - {Totalmetalzone}</li>
+    </a>
+    </ul>
+  </div> 
+
+<h2 id="biographie" class="text-center biographie col-md-4">Biographie</h2>
+  <div class="hiddenstuff-2">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    </div>
+  </div> 
+
 </div>
-<?php include "include/aside.php"; ?>
-<div class="col-md-8">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
 <h2>Créateur du site :</h2>
-<img class="col-md-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
+<img class="col-lg-3 col-md-3 col-sm-3 col-xs-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -46,64 +97,50 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <?php }
 
  elseif(isset($_GET) && isset($_GET['photos'])){ ?>
-
+<?php include "include/header.php"; ?>
+<meta name="description" content="Bestial Soul News" />
 <title>Bestial Soul | Photos</title>
+</head>
+
+<?php include "include/navbar.php" ?>
+<body>
 
 <!-- Landing -->
 
-  	<div class="col-md-12 text-center">
-  					<video autoplay loop no-controls muted>
-                        <source src="video-principale.mp4"  type="video/mp4" />
-                    </video>  
-  		<h1><span>P</span>hotos</h1>
-	</div>
+		<video autoplay loop no-controls muted>
+      <source src="video-principale.mp4"  type="video/mp4" />
+    </video>  
 
-
+<h1 class="text-center"><span>P</span>hotos</h1>
 <div class="container">
-
-<div class="col-md-8">
-<h2>Le groupe :</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-<?php include "include/aside.php"; ?>
-<div class="col-md-8">
-<h2><i class="fa fa-user fa-3x"></i> Créateur du site :</h2>
-<img class="col-md-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo_gallery">
+  <?php include "include/carousel.php"; ?>
+  </div>
 </div>
 
 <?php } 
 
 
 elseif(isset($_GET) && isset($_GET['videos'])){ ?>
-
+<?php include "include/header.php"; ?>
+<meta name="description" content="Bestial Soul Videos" />
 <title>Bestial Soul | Videos</title>
+</head>
+
+<?php include "include/navbar.php" ?>
+<body>
 
 <!-- Landing -->
 
-  	<div class="col-md-12 text-center">
   					<video autoplay loop no-controls muted>
                 <source src="video-principale.mp4"  type="video/mp4" />
             </video>  
-  		<h1><span>V</span>ideos</h1>
-	</div>
+  		<h1 class="text-center"><span>V</span>ideos</h1>
 
 
 <div class="container">
 
-<div class="col-md-8">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
 <h2>Le groupe :</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -113,9 +150,9 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <?php include "include/aside.php"; ?>
-<div class="col-md-8">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
 <h2>Créateur du site :</h2>
-<img class="col-md-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
+<img class="col-lg-3 col-md-3 col-sm-3 col-xs-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -130,22 +167,26 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
 elseif(isset($_GET) && isset($_GET['about_us'])){ ?>
-
+<?php include "include/header.php"; ?>
+<meta name="description" content="Bestial Soul A propos de nous" />
 <title>Bestial Soul | A propos de nous</title>
+</head>
+
+<?php include "include/navbar.php" ?>
+
+<body>
 
 <!-- Landing -->
 
-  	<div class="col-md-12 text-center">
   					<video autoplay loop no-controls muted>
-                        <source src="video-principale.mp4"  type="video/mp4" />
-                    </video>  
-  		<h1><span>B</span>estial <span>S</span>oul</h1>
-	</div>
+              <source src="video-principale.mp4"  type="video/mp4" />
+            </video>  
+  		<h1 class="text-center"><span>A</span> propos de nous</h1>
 
 
 <div class="container">
 
-<div class="col-md-8">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
 <h2>Le groupe :</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -155,9 +196,9 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <?php include "include/aside.php"; ?>
-<div class="col-md-8">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
 <h2>Créateur du site :</h2>
-<img class="col-md-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
+<img class="col-lg-3 col-md-3 col-sm-3 col-xs-3 user" src="img/user.png" onmouseover="this.src='img/user.gif'" onmouseout="this.src='img/user.png'">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -171,17 +212,20 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <?php } 
 
 elseif(isset($_GET) && isset($_GET['contact'])){ ?>
-
+<?php include "include/header.php"; ?>
+<meta name="description" content="Bestial Soul Contact" />
 <title>Bestial Soul | Contact</title>
+</head>
+
+<?php include "include/navbar.php" ?>
+<body>
 
 <!-- Landing -->
 
-  	<div class="col-md-12 text-center">
   					<video autoplay loop no-controls muted>
                         <source src="video-principale.mp4"  type="video/mp4" />
                     </video>  
   		
-	</div>
 
 <div class="container">
 <form class="col-md-6 col-md-offset-3 contact" method="POST" action="index.php?envoi_message">
@@ -207,12 +251,10 @@ elseif (isset($_GET) && isset($_GET['envoi_message'])) {
     </script>
     <!-- Landing -->
 
-    <div class="col-md-12 text-center">
             <video autoplay loop no-controls muted>
                         <source src="video-principale.mp4"  type="video/mp4" />
                     </video>  
       
-  </div>
   <div class="container">
 <form class="col-md-6 col-md-offset-3 contact" method="POST" action="index.php?envoi_message">
   <center>
@@ -267,19 +309,22 @@ elseif (isset($_GET) && isset($_GET['envoi_message'])) {
 }
 
 else{ ?>
-
+<?php include "include/header.php"; ?>
+<meta name="description" content="Bestial Soul Accueil" />
 <title>Bestial Soul | Accueil</title>
+</head>
+
+<?php include "include/navbar.php" ?>
+<body>
 
 <!-- Landing -->
 
-  	<div class="col-md-12 text-center">
   					<video autoplay loop no-controls muted>
                         <source src="video-principale.mp4"  type="video/mp4" />
                         <h1>Test de titre</h1>
                     </video>
 
-  		<h1><span>A</span>ccueil</h1>
-	</div>
+  		<h1 class="text-center"><span>A</span>ccueil</h1>
 
 
 <div class="container">
